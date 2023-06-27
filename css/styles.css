@@ -1,0 +1,149 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navyblue-modal: rgba(46, 47, 66, 0.4);
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--navyblue, #2E2F42);
+}
+
+header,
+.section-features,
+.section-services,
+.section-team .team-item {
+    background: var(--white, #FFF);
+}
+
+.section-team {
+    background: var(--cloud, #F4F4FD);
+}
+
+.section-title,
+footer {
+    background: var(--navyblue, #2E2F42);
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.3125rem;
+    letter-spacing: 0.03375rem;
+    text-transform: uppercase;
+    color: var(--iris, #4D5AE5);
+}
+
+.nav-item a,
+.address-item a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    color: var(--navyblue, #2E2F42);
+}
+
+.nav-item a:hover, .nav-item a:focus,
+.address-item a:hover, .address-item a:focus {
+    color: var(--ocean, #404BBF);
+}
+
+.section-title h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: 0.07rem;
+    color: var(--white, #FFF);
+}
+
+.section-title button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
+    color: var(--white, #FFF);
+
+    background: var(--iris, #4D5AE5);
+}
+
+.section-title button:hover {
+    background: var(--ocean, #404BBF);
+}
+
+
+.feature-title,
+.member-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+}
+
+.feature-text,
+.member-position {
+    color: var(--slate, #434455);
+
+    font-size: 16px;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+}
+
+.title-section {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .45rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.footer-text {
+    color: var(--cloud, #F4F4FD);
+
+    font-size: 16px;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+}
+
+
+/* Project Page */
+
+.filters-item button {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    color: var(--iris, #4D5AE5);
+    background: var(--cloud, #F4F4FD);
+}
+
+.filters-item button.selected {
+    color: var(--white, #FFF);
+}
+
+.project-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.025rem;
+    color: var(--navyblue, #2E2F42);
+}
+
+.project-type {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    color: var(--slate, #434455);
+}
