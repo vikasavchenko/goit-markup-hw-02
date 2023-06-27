@@ -131,6 +131,7 @@ footer {
 
 .filters-item button.selected {
     color: var(--white, #FFF);
+    background: var(--ocean, #404BBF);
 }
 
 .project-title {
