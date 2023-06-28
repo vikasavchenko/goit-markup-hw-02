@@ -67,7 +67,7 @@ footer {
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
-    color: var(--navyblue, #2E2F42);
+    color: var(--slate, #434455);
 }
 
 .nav-item a:hover, .nav-item a:focus,
