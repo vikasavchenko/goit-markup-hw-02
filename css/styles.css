@@ -11,7 +11,6 @@
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
-    --title: #2e2f42;
 }
 
 body {
@@ -111,12 +110,23 @@ footer .logo-text {
     background: var(--ocean, #404BBF);
 }
 
+.title-section {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navyblue, #2E2F42);
+}
+
 .feature-title,
 .member-name {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.025rem;
+    color: var(--navyblue, #2E2F42);
 }
 
 .feature-text,
@@ -125,16 +135,6 @@ footer .logo-text {
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
     color: var(--slate, #434455);
-}
-
-.title-section {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--title);
 }
 
 .footer-text {
