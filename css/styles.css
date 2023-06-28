@@ -134,20 +134,14 @@ footer .logo-text {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: var(--navyblue, #2E2F42);
-}
-
-.features-title,
-.team-title {
-    color: var(--title, #2e2f42);
+    color: var(--title);
 }
 
 .footer-text {
-    color: var(--cloud, #F4F4FD);
-
     font-size: 16px;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
+    color: var(--cloud, #F4F4FD);
 }
 
 
