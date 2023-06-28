@@ -75,13 +75,13 @@ footer .logo-text {
     color: var(--slate, #434455);
 }
 
+.nav-item:first-of-type > a {
+    color: var(--navyblue, #2E2F42);
+}
+
 .nav-item a:hover, .nav-item a:focus,
 .address-item a:hover, .address-item a:focus {
     color: var(--ocean, #404BBF);
-}
-
-.nav-item.selected a {
-    color: var(--navyblue, #2E2F42);
 }
 
 .section-title .title  {
@@ -110,6 +110,10 @@ footer .logo-text {
     background: var(--ocean, #404BBF);
 }
 
+.features-title,
+.team-title {
+    color: var(--grey);
+}
 
 .feature-title,
 .member-name {
