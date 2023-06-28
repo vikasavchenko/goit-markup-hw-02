@@ -58,8 +58,12 @@ footer {
     color: var(--iris, #4D5AE5);
 }
 
-.logo-text {
+header .logo-text {
     color: var(--navyblue, #2E2F42);
+}
+
+footer .logo-text {
+    color: var(--cloud, #F4F4FD);
 }
 
 .nav-item a,
@@ -74,6 +78,10 @@ footer {
 .nav-item a:hover, .nav-item a:focus,
 .address-item a:hover, .address-item a:focus {
     color: var(--ocean, #404BBF);
+}
+
+.nav-item-first {
+    color: var(--navyblue, #2E2F42);
 }
 
 .section-title .title  {
@@ -140,14 +148,21 @@ footer {
 
 /* Project Page */
 
-.filters-item button {
-    font-size: 1rem;
+.filter-button {
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0.04rem;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     text-align: center;
+    cursor: pointer;
     color: var(--iris, #4D5AE5);
     background: var(--cloud, #F4F4FD);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--white);
+    background: var(--ocean);
 }
 
 .filters-item button.selected {
