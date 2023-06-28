@@ -110,11 +110,6 @@ footer .logo-text {
     background: var(--ocean, #404BBF);
 }
 
-.features-title,
-.team-title {
-    color: var(--grey);
-}
-
 .feature-title,
 .member-name {
     font-size: 20px;
@@ -138,6 +133,11 @@ footer .logo-text {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--navyblue, #2E2F42);
+}
+
+.features-title,
+.team-title {
     color: var(--navyblue, #2E2F42);
 }
 
