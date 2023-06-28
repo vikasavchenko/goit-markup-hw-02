@@ -76,15 +76,17 @@ footer {
     color: var(--ocean, #404BBF);
 }
 
-.section-title h1 {
+.section-title .title  {
     font-size: 56px;
     font-weight: 700;
-    line-height: 3.75rem;
+    line-height: 1.07;
     letter-spacing: 0.07rem;
+    text-align: center;
     color: var(--white, #FFF);
 }
 
-.section-title button {
+.section-title .order-button {
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5rem;
@@ -95,7 +97,8 @@ footer {
     background: var(--iris, #4D5AE5);
 }
 
-.section-title button:hover {
+.section-title .order-button:hover,
+.section-title .order-button:focus {
     background: var(--ocean, #404BBF);
 }
 
@@ -119,10 +122,11 @@ footer {
 .title-section {
     font-size: 36px;
     font-weight: 700;
-    line-height: 2.5rem;
-    letter-spacing: .45rem;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    color: var(--navyblue, #2E2F42);
 }
 
 .footer-text {
