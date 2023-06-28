@@ -35,14 +35,26 @@ footer {
     background: var(--navyblue, #2E2F42);
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 1.125rem;
     font-weight: 800;
-    line-height: 1.3125rem;
+    line-height: 1.17rem;
     letter-spacing: 0.03375rem;
     text-transform: uppercase;
     color: var(--iris, #4D5AE5);
+}
+
+.logo-text {
+    color: var(--navyblue, #2E2F42);
 }
 
 .nav-item a,
