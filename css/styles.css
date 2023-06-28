@@ -15,7 +15,8 @@
 
 body {
     font-family: Roboto, sans-serif;
-    color: var(--navyblue, #2E2F42);
+    color: var(--slate, #434455);
+    background: var(--white, #FFF);
 }
 
 header,
@@ -92,11 +93,10 @@ footer {
 
 .feature-text,
 .member-position {
-    color: var(--slate, #434455);
-
     font-size: 16px;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
+    color: var(--slate, #434455);
 }
 
 .title-section {
