@@ -11,6 +11,7 @@
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
+    --title: #2e2f42;
 }
 
 body {
@@ -138,7 +139,7 @@ footer .logo-text {
 
 .features-title,
 .team-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--title, #2e2f42);
 }
 
 .footer-text {
