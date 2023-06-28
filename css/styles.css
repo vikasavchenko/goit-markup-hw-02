@@ -80,7 +80,7 @@ footer .logo-text {
     color: var(--ocean, #404BBF);
 }
 
-.nav-item.selected {
+.nav-item.selected a {
     color: var(--navyblue, #2E2F42);
 }
 
@@ -161,7 +161,7 @@ footer .logo-text {
     background-color: var(--cloud, #F4F4FD);
 }
 
-.filters-item.selected .filter-button {
+.filters-item:first-child .filter-button {
     color: var(--white);
     background-color: var(--ocean);
 }
