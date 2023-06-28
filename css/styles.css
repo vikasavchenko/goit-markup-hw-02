@@ -80,7 +80,7 @@ footer .logo-text {
     color: var(--ocean, #404BBF);
 }
 
-.nav-item-first {
+.nav-item.selected {
     color: var(--navyblue, #2E2F42);
 }
 
@@ -161,15 +161,15 @@ footer .logo-text {
     background-color: var(--cloud, #F4F4FD);
 }
 
-.filter-button:hover,
-.filter-button:focus {
+.filters-item.selected .filter-button {
     color: var(--white);
     background-color: var(--ocean);
 }
 
-.filters-item.selected .filter-button {
-    color: var(--iris);
-    background-color: var(--cloud);
+.filter-button:hover,
+.filter-button:focus{
+    color: var(--white);
+    background-color: var(--ocean);
 }
 
 .project-title {
