@@ -149,25 +149,27 @@ footer .logo-text {
 /* Project Page */
 
 .filter-button {
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
+
     color: var(--iris, #4D5AE5);
-    background: var(--cloud, #F4F4FD);
+    background-color: var(--cloud, #F4F4FD);
 }
 
 .filter-button:hover,
 .filter-button:focus {
     color: var(--white);
-    background: var(--ocean);
+    background-color: var(--ocean);
 }
 
-.filters-item button.selected {
+.filters-item.selected .filter-button {
     color: var(--white, #FFF);
-    background: var(--ocean, #404BBF);
+    background-color: var(--ocean, #404BBF);
 }
 
 .project-title {
