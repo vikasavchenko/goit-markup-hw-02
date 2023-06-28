@@ -168,8 +168,8 @@ footer .logo-text {
 }
 
 .filters-item.selected .filter-button {
-    color: var(--white, #FFF);
-    background-color: var(--ocean, #404BBF);
+    color: var(--iris);
+    background-color: var(--cloud);
 }
 
 .project-title {
