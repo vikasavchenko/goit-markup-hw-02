@@ -37,6 +37,7 @@ footer {
 
 .link {
     text-decoration: none;
+    color: var(--navyblue, #2E2F42);
 }
 
 .list {
